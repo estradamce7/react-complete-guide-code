@@ -3,6 +3,7 @@ import React from 'react';
 import classes from './Button.module.css';
 
 const Button = (props) => {
+  console.log('BUTTON RUNNING');
   return (
     <button
       type={props.type || 'button'}
@@ -15,4 +16,5 @@ const Button = (props) => {
   );
 };
 
-export default Button;
+// React.memo does not work here because its props changes. Refer to App.js toggleHandler, as the App.js re-renders so will the function
+export default React.memo(Button);
