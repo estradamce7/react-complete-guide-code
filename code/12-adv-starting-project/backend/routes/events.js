@@ -12,7 +12,12 @@ const router = express.Router();
 router.get('/', async (req, res, next) => {
   try {
     const events = await getAll();
-    res.json({ events: events });
+    // test delay on how this reflects to frontend
+    // this shows that React router will wait for the data to be fetched/loader to be finished before it renders the page with the fetched data
+    setTimeout(() => {
+      res.json({ events: events });
+    }, 2000);
+    // res.json({ events: events });
   } catch (error) {
     next(error);
   }
