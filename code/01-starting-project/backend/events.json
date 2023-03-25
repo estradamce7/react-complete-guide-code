@@ -1,12 +1,1 @@
-{
-  "events": [
-    {
-      "title": "A new event",
-      "image": "https://cdn.muenchen-p.de/fl_progressive,q_65/.imaging/stk/responsive/teaser300/dms/va-2016/muenchner-christkindlmarkt/christkindlmarkt-marienplat-logo-hp/document/christkindlmarkt-marienplat-logo-hp.jpg",
-      "date": "2022-10-01",
-      "description": "Some awesome event!",
-      "id": "2a42fcc4-ea21-4bdd-abf6-c40006dc66a9"
-    }
-  ],
-  "users": []
-}
+{"events":[{"title":"Food event","image":"https://images.squarespace-cdn.com/content/v1/57879a6cbebafb879f256735/1667226425853-GFTZP1P5PWAME97VPC6M/AD011219-21_original.jpg","date":"2023-05-12","description":"test food event","id":"fee21e40-f397-4563-ade0-40f2fbd30548"},{"title":"A new event","image":"https://cdn.muenchen-p.de/fl_progressive,q_65/.imaging/stk/responsive/teaser300/dms/va-2016/muenchner-christkindlmarkt/christkindlmarkt-marienplat-logo-hp/document/christkindlmarkt-marienplat-logo-hp.jpg","date":"2022-10-01","description":"Some awesome event!","id":"2a42fcc4-ea21-4bdd-abf6-c40006dc66a9"},{"title":"Ocean event","image":"https://st.depositphotos.com/1000651/3197/i/600/depositphotos_31978517-stock-photo-views-of-the-coast.jpg","date":"2023-07-01","description":"Ocean event lets gooo","id":"2a42fcc4-ea21-4bdd-abf6-c40006dc66c9"}],"users":[{"email":"test@test.com","password":"$2a$12$kF0yUubrDb.f2EQz1ZfkOuvNuYuebuRLsMiPZ.JtfaQRzSqnL9sMe","id":"a8df7059-1997-4694-bd34-fc42c59e4339"},{"email":"test@test.coms","password":"$2a$12$9ALCMFocbjVWJo7sNlip2en0Ps.pYcoDDI2btAjV5G07POw3pBk2G","id":"a5753d69-7eb0-4d3e-9b81-17eb6555c29d"},{"email":"test1@test.com","password":"$2a$12$EoWs8hnDw//mwxKmv1Oroeym0.qUKkIYv1ZSmna6FLPIGWSUm/yu.","id":"fdfb98f3-55fb-469a-bf2e-c6f1a7bc29f3"}]}
