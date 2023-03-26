@@ -18,3 +18,5 @@ const App = props => {
 };
 
 export default App;
+// Context is good for low-frequency changes (ie changing a theme, authentication)
+// Redux is better for better for high-frequency changes (ie adding to cart, favorite/wishlist)
